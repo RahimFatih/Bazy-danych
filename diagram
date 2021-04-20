@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T18:01:57.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="MOalCPCFp4mK5ibUwde5" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-20T18:05:22.105Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="-FB9UVhZ85QI_7Ffjr3g" version="14.6.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1221" dy="649" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -21,14 +21,11 @@
         <mxCell id="YY9_zO_hrMNrxKpRNn-W-17" value="Pracownik&amp;nbsp;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="240" y="320" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YY9_zO_hrMNrxKpRNn-W-19" value="Przypisania maszyn" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="240" y="120" width="170" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="YY9_zO_hrMNrxKpRNn-W-22" value="Maszyna" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="650" y="120" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YY9_zO_hrMNrxKpRNn-W-23" value="Lokalizacja" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="951" y="126" width="170" height="80" as="geometry" />
+          <mxGeometry x="948" y="117" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YY9_zO_hrMNrxKpRNn-W-26" value="Zgłasza" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="YY9_zO_hrMNrxKpRNn-W-17" target="YY9_zO_hrMNrxKpRNn-W-15" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -51,47 +48,10 @@
             <mxPoint x="740" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YY9_zO_hrMNrxKpRNn-W-32" value="Korzysta" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="YY9_zO_hrMNrxKpRNn-W-17" target="YY9_zO_hrMNrxKpRNn-W-19" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="640" y="380" as="sourcePoint" />
-            <mxPoint x="740" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YY9_zO_hrMNrxKpRNn-W-33" value="Jaka maszyna" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="YY9_zO_hrMNrxKpRNn-W-22" target="YY9_zO_hrMNrxKpRNn-W-19" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="292.5" y="330" as="sourcePoint" />
-            <mxPoint x="292.5" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YY9_zO_hrMNrxKpRNn-W-35" value="Przypisanie do lokalizacji" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="650" y="470" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="YY9_zO_hrMNrxKpRNn-W-37" value="Korzysta" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="YY9_zO_hrMNrxKpRNn-W-29" target="YY9_zO_hrMNrxKpRNn-W-19" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="292.5" y="330" as="sourcePoint" />
-            <mxPoint x="220" y="250" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="200" y="490" />
-              <mxPoint x="200" y="180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="YY9_zO_hrMNrxKpRNn-W-38" value="Zgłasza" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="YY9_zO_hrMNrxKpRNn-W-29" target="YY9_zO_hrMNrxKpRNn-W-15" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="420" y="350" as="sourcePoint" />
             <mxPoint x="660" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YY9_zO_hrMNrxKpRNn-W-39" value="Pracuje w lokalizacji" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;" parent="1" source="YY9_zO_hrMNrxKpRNn-W-35" target="YY9_zO_hrMNrxKpRNn-W-29" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="490" y="580" as="sourcePoint" />
-            <mxPoint x="420" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YY9_zO_hrMNrxKpRNn-W-41" value="Przypisani do&amp;nbsp;&lt;br&gt;lokalizacji" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;" parent="1" source="YY9_zO_hrMNrxKpRNn-W-35" target="YY9_zO_hrMNrxKpRNn-W-23" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1080" y="410" as="sourcePoint" />
-            <mxPoint x="840" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YY9_zO_hrMNrxKpRNn-W-42" value="Znajduje się w" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="YY9_zO_hrMNrxKpRNn-W-22" target="YY9_zO_hrMNrxKpRNn-W-23" edge="1">
@@ -611,6 +571,28 @@
             <Array as="points">
               <mxPoint x="478" y="1281" />
               <mxPoint x="478" y="1414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-QDRjWGXJ4TA0R7F9xb-3" value="Korzysta" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="YY9_zO_hrMNrxKpRNn-W-17" target="YY9_zO_hrMNrxKpRNn-W-22">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="338" y="234" as="sourcePoint" />
+            <mxPoint x="438" y="134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-QDRjWGXJ4TA0R7F9xb-4" value="Korzysta" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="YY9_zO_hrMNrxKpRNn-W-29" target="YY9_zO_hrMNrxKpRNn-W-22">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="12" y="255" as="sourcePoint" />
+            <mxPoint x="271" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-QDRjWGXJ4TA0R7F9xb-5" value="Pracuje w lokalizacji" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="YY9_zO_hrMNrxKpRNn-W-29" target="YY9_zO_hrMNrxKpRNn-W-23">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="491" y="559" as="sourcePoint" />
+            <mxPoint x="901" y="209" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="861" y="530" />
+              <mxPoint x="861" y="186" />
             </Array>
           </mxGeometry>
         </mxCell>
