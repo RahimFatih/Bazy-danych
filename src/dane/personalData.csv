@@ -1,22 +1,7 @@
 ﻿id_personal_data,name,surname,birthday,gender,position,login,password,licenses
-1,Igor,Krawczyk,1999-12-05,male,1,krawczyk_i,dhjkaAd$24,Office 360
-2,Kordian,Górecki,1987-06-30,male,2,gorecki_k,fASfHz$#62,Norton
-3,Arleta,Marciniak,1976-05-03,female,3,marciniak_a,gow6#52sdf,Norton
-4,Oliwia,Wasilewska,1972-02-13,female,4,wasilewska_o,fji2!56fjia,Office 360
-5,Idalia,Mazur,1973-12-30,female,1,mazur_i,jp2lg5l%,Jira
-6,Irena,Sobczak,1984-08-07,female,2,sobczak_i,h#5*4ofka,Office 360
-7,Ignacy,Andrzejewski,1994-11-04,male,1,andrzejewski_i,o2pvm6!,Office 360
-8,Lucjan,Baranowski,23-10-1995,male,1,baranowski_l,f?45DadD,Jira
-9,Artur,Mróz,1996-03-18,male,4,mroz_a,sadtr#12%,Norton
-10,Bogna,Kamińska,1994-06-01,female,1,kaminska_b,fo4mv$tosp2,Norton
-11,Alicja,Brzezińska,1985-02-05,female,3,brzezinska_a,f91FlapVm?,Jira
-12,Amadeusz,Witkowski,1984-11-16,male,1,witkowski_a,hp4!!456,Office 360
-13,Daniel,Sobczak,1991-11-29,male,2,sobczak_d,091kfoa%,Norton
-14,Anastazy,Kowalczyk,1983-02-02,male,4,kowalczyk_a,3&da$Nf9,Jira
-15,Oktawia,Borkowska,1985-04-11,female,5,borkowska_o,FD23490@@,Jira
-16,Krystian,Kowalski,1987-11-08,male,5,kowalski_k,v04AS2-23,Jira
-17,Alexander,Piotrowski,1994-01-03,male,4,piotrowski_a,dsfko40#,Norton
-18,Karolina,Sokołowska,1974-08-20,female,2,sokolowska_k,oirMNto56$,Office 360
-19,Jędrzej,Szewczyk,1985-12-04,male,3,szewczyk_j,asdk94$$$,Office 360
-20,Heronim,Andrzejewski,1988-09-07,male,1,andrzejewski_h,qweo3V$33,Office 360
-21,Worker,Worker,2000-01-01,male,1,worker,worker,Office 360
+(1,"Igor","Krawczyk","1999-12-05","male",1,"krawczyk_i","dhjkaAd$24","Office 360"),
+(2,"Kordian","Górecki","1987-06-30","male",2,"gorecki_k","fASfHz$#62","Norton"),
+(3,"Arleta","Marciniak","1976-05-03","female",3,"marciniak_a","gow6#52sdf","Norton"),
+(4,"Oliwia","Wasilewska","1972-02-13","female",4,"wasilewska_o","fji2!56fjia","Office 36"),
+(5,"Idalia","Mazur","1973-12-30","female",1,"mazur_i","jp2lg5l%","Jira"),
+(6,"Worker","Worker","2000-01-01",",1,"worker","worker","Office 360");

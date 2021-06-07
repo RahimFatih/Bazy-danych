@@ -1,8 +1,8 @@
 ﻿id_crash_report,report_date,crashed_machine,reporting_worker,type,description,UR_worker,repair_date
-1,2020-12-23,2,3,Awaria całkowita,-,29/12/2020
-2,2021-01-03,5,5,Awaria całkowita,-,
-3,2021-01-05,6,6,Usterka,-,01/04/2021
-4,2021-01-08,8,7,Usterka,-,01/11/2021
-5,2021-01-14,10,10,Inny,Zacięcie,2021/15/01
-6,2021-02-21,3,7,Usterka,-,
-7,2021-03-02,4,4,Kolizja,-,
+(1,"2020-12-23",2,3,"Awaria całkowita","-","29/12/2020"),
+(2,"2021-01-03",5,5,"Awaria całkowita","-",Null),
+(3,"2021-01-05",6,6,"Usterka","-","01/04/2021"),
+(4,"2021-01-08",8,7,"Usterka","-","01/11/2021"),
+(5,"2021-01-14",10,10,"Inny","Rozpoczęto","2021/15/01"),
+(6,"2021-02-21",3,7,U"sterka","-", Null),
+(7,"2021-03-02",4,4,"Kolizja","-", Null);

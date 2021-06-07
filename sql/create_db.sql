@@ -16,7 +16,7 @@ CREATE TABLE `personalData` (
   `id_personal_data` int primary key auto_increment,
   `name` varchar(255),
   `surname` varchar(255),
-  `birthday` timestamp,
+  `birthday` date,
   `gender` ENUM ('male', 'female'),
   `position` int,
   `login` varchar(255),

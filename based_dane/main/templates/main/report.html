@@ -1,0 +1,20 @@
+{% extends 'main/base.html' %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+
+<form method = "POST" >
+    {% csrf_token %}
+    {{forms|crispy}}
+    <button type="submit" class="btn btn-primary">Wyślij zgłoszenie</button>
+
+</form>
+{% comment %} <form method="POST">
+    {% csrf_token %}
+    {{form|crispy}}
+    {{ forms.damage_type }}
+
+</form> {% endcomment %}
+
+{% endblock content %}

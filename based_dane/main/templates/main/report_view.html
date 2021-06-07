@@ -1,0 +1,43 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+
+{% endblock title %}
+
+{% block content %}
+
+<br>
+
+		<div class="row">
+			<div class="col-md">
+				<div class="card card-body">
+					<h5>Report</h5>
+				</div>
+				<div class="card card-body">
+					<table class="table">
+						<tr>
+							<th>ID: {{ report.id_crash_report }}</th>
+                        </tr>
+						<tr>
+							<th>Data: {{ report.report_date }}</th>
+                        </tr>
+                        <tr>
+							<th>Maszyna: {{ report.crashed_machine.name }}</th>
+                        </tr>
+                        <tr>
+							<th>Zgłaszający pracownik: {{report.reporting_worker.name}} {{report.reporting_worker.surname}}</th>
+                        <tr>
+                            <th>Rodzaj awarii: {{report.type}}</th>
+                        </tr>
+                        <tr>
+                            <th>Opis: {{report.description}}</th>
+                        </tr>
+                        <tr>
+                            <th>Data rozwiązania awarii: {{report.repair_date}}</th>
+                        </tr>
+					</table>
+				</div>
+			</div>
+			
+		</div>
+{% endblock content %}
