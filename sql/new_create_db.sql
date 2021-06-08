@@ -4,7 +4,7 @@ CREATE TABLE `personalData` (
   `id_personal_data` int primary key auto_increment,
   `name` varchar(255),
   `surname` varchar(255),
-  `birthday` timestamp,
+  `birthday` DATETIME ,
   `gender` ENUM ('male', 'female'),
   `position` int,
   `login` varchar(255),
@@ -15,18 +15,18 @@ CREATE TABLE `personalData` (
 CREATE TABLE `machines` (
   `id_machine` int primary key auto_increment,
   `name` varchar(255),
-  `last_service` timestamp,
+  `last_service` DATETIME ,
   `status` set('Awaria', 'W naprawie', 'Sprawna')
 );
 
 CREATE TABLE `crashReport` (
   `id_crash_report` int primary key auto_increment,
-  `report_date` timestamp,
+  `report_date` DATETIME ,
   `crashed_machine` int,
   `reporting_worker` int,
   `type` set('Awaria całkowita', 'Usterka', 'Kolizja', 'Inny'),
   `description` varchar(255),
-  `repair_date` timestamp
+  `repair_date` DATETIME 
 );
 
 CREATE TABLE `worker_position` (
