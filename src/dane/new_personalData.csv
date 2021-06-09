@@ -1,0 +1,8 @@
+id_personal_data,name,surname,birthday,gender,position,login,password,licenses
+(1,"Igor","Krawczyk","1999-12-05","male",1,1,"Office 360"),
+(2,"Kordian","Górecki","1987-06-30","male",2,2,"Norton"),
+(3,"Arleta","Marciniak","1976-05-03","female",3,3,"Norton"),
+(4,"Oliwia","Wasilewska","1972-02-13","female",4,4,"Office 36"),
+(5,"Idalia","Mazur","1973-12-30","female",1,5,"Jira"),
+(6,"Worker","Worker","2000-01-01","male",1,6,"Office 360"),
+(7,"Marek", "Tarnawski", "1985-05-13", "male", 4, 7, "Jira");
