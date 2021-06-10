@@ -7,7 +7,7 @@
 <form method = "POST" >
     {% csrf_token %}
     {{forms|crispy}}
-    <button type="submit" class="btn btn-primary">Wyślij zgłoszenie</button>
+    <button href="report_list"  type="submit" class="btn btn-primary">Wyślij zgłoszenie</button>
 
 </form>
 {% comment %} <form method="POST">

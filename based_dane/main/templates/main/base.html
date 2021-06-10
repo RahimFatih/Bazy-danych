@@ -48,7 +48,13 @@
         <a href="../home">Home</a>
         <a href="../report">Nowe zgłoszenie</a>
         <a href="../report_list">Przeglądanie zgłoszeń</a>
+
+        {% if user.is_authenticated %}
+        <span><a href="{% url 'signup' %}">Dodaj Pracownika</a></span>
         <span><a href="{% url 'logout' %}">Logout</a></span>
+        {% else %}
+        <span><a href="{% url 'login' %}">Login</a></span>
+        {% endif %}
 
     </div>
 
