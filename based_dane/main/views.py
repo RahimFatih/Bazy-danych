@@ -71,10 +71,10 @@ def signup(response):
             worker.save()
 
         return HttpResponseRedirect('../success')
-    
+
     else:
         form = SignUpWorker()
-    
+
     return render(response, "main/signup.html", {"form": form})
 
 
@@ -83,7 +83,6 @@ def logoutUser(request):
     return redirect('login')
 
 
-@login_required(login_url='login')
 def home(response):
     return render(response, "main/home.html", {})
 
